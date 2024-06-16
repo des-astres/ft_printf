@@ -6,27 +6,27 @@ ft_printf prints the arguments passed to it on the standard output, formatting t
 ## Format conversions
 
 ft_printf handles the following format specifiers:
-%c to print a character
-%s to print a string
-%d to print a decimal number
-%i to print an integer
-%u to print an unsigned integer
-%x to print an unsigned hexadecimal number in lowercase
-%X to print an unsigned hexadecimal number in uppercase
-%% to print a percent sign
-%p to print a void pointer's memory adress in hexadecimal format
+%c to print a character,
+%s to print a string,
+%d to print a decimal number,
+%i to print an integer,
+%u to print an unsigned integer,
+%x to print an unsigned hexadecimal number in lowercase,
+%X to print an unsigned hexadecimal number in uppercase,
+%% to print a percent sign,
+%p to print a void pointer's memory adress in hexadecimal format.
 
 ## Examples
 
 ```C
 
-# prints "42", returns 2
+// prints "42", returns 2
 ft_printf("%d", 42)
 
-# prints "a", returns 1
+// prints "a", returns 1
 ft_printf("%c", 'a')
 
-# prints "42 in hexadecimal is 2A", returns 23
+// prints "42 in hexadecimal is 2A", returns 23
 ft_printf("%d in hexadecimal is %X", 42, 42)
 ```
 
