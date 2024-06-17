@@ -36,18 +36,3 @@ int	ft_putnbr_mod(int n, int count)
 	}
 	return (count);
 }
-
-// #include<stdio.h>
-// #include<stdlib.h>
-
-// int	main(int ac, char **av)
-// {
-// 	int	count;
-
-// 	if (ac > 1)
-// 	{
-// 		count = ft_putnbr_mod(atoi(av[1]), 0);
-// 		printf(" count = %d\n", count);
-// 	}
-// 	return (0);
-// }
